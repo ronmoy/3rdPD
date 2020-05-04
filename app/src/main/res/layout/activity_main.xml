@@ -28,6 +28,8 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textSize="16dp"
+        android:background="#5c45e3"
+        android:textColor="#FFFFFF"
         android:text="Calculate" />
 
     <TextView
@@ -37,11 +39,14 @@
         android:textAlignment="center"
         android:textSize="24dp"
         android:layout_height="100dp"
+        android:textColor="#5c45e3"
         android:text="" />
 
     <Button
         android:id="@+id/recommendation"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:background="#5c45e3"
+        android:textColor="#FFFFFF"
         android:text="Click for Recommendation" />
 </LinearLayout>
